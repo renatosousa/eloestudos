@@ -1,0 +1,12 @@
+{
+  "name": "eloestudos-llm-router",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "example": "node src/example.js",
+    "check:example": "node src/example.js",
+    "check:router": "node src/check-router.js",
+    "check": "npm run check:router && npm run check:example"
+  }
+}
